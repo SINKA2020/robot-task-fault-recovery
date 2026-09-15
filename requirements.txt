@@ -1,0 +1,24 @@
+# Python dependencies referenced by the published src/ tree.
+# This list does not install ROS, generated messages, robot SDKs, or missing resources.
+# Versions must be selected for the target ROS/Python/hardware environment.
+
+# Numerical computation and configuration parsing
+numpy
+scipy
+PyYAML
+
+# Visual perception and camera interfaces
+opencv-python
+ultralytics
+pyrealsense2
+
+# ROS package resource discovery (does not install ROS itself)
+rospkg
+
+# Optional point-cloud support in the scene graph implementation
+open3d
+
+# Additional dependencies outside pip:
+# rospy, std_msgs, sensor_msgs, geometry_msgs, cv_bridge, actionlib, move_base_msgs
+# rm_msgs, blockkit, generated scene_graph_system.msg
+# RealMan SDK: Robotic_Arm.rm_robot_interface
